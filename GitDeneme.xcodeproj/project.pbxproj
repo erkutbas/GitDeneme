@@ -17,6 +17,7 @@
 		A76DA98B26F537A100BCA2CA /* GitDenemeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76DA98A26F537A100BCA2CA /* GitDenemeTests.swift */; };
 		A76DA99626F537A100BCA2CA /* GitDenemeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76DA99526F537A100BCA2CA /* GitDenemeUITests.swift */; };
 		A7B524A026F5452C00E41736 /* Task1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B5249F26F5452C00E41736 /* Task1.swift */; };
+		A7B524A626F545E700E41736 /* Task3.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B524A526F545E700E41736 /* Task3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		A76DA99526F537A100BCA2CA /* GitDenemeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitDenemeUITests.swift; sourceTree = "<group>"; };
 		A76DA99726F537A100BCA2CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A7B5249F26F5452C00E41736 /* Task1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task1.swift; sourceTree = "<group>"; };
+		A7B524A526F545E700E41736 /* Task3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 		A76DA96F26F537A000BCA2CA /* GitDeneme */ = {
 			isa = PBXGroup;
 			children = (
+				A7B524A426F545DD00E41736 /* Task3 */,
 				A7B5249E26F5452400E41736 /* Task1 */,
 				A76DA97026F537A000BCA2CA /* AppDelegate.swift */,
 				A76DA97226F537A000BCA2CA /* SceneDelegate.swift */,
@@ -140,6 +143,14 @@
 				A7B5249F26F5452C00E41736 /* Task1.swift */,
 			);
 			path = Task1;
+			sourceTree = "<group>";
+		};
+		A7B524A426F545DD00E41736 /* Task3 */ = {
+			isa = PBXGroup;
+			children = (
+				A7B524A526F545E700E41736 /* Task3.swift */,
+			);
+			path = Task3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7B524A626F545E700E41736 /* Task3.swift in Sources */,
 				A76DA97B26F537A000BCA2CA /* GitDeneme.xcdatamodeld in Sources */,
 				A76DA97526F537A000BCA2CA /* ViewController.swift in Sources */,
 				A76DA97126F537A000BCA2CA /* AppDelegate.swift in Sources */,
