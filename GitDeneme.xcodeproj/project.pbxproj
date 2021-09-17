@@ -19,6 +19,7 @@
 		A7B524A026F5452C00E41736 /* Task1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B5249F26F5452C00E41736 /* Task1.swift */; };
 		A7B524A626F545E700E41736 /* Task3.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B524A526F545E700E41736 /* Task3.swift */; };
 		A7B524A826F546BA00E41736 /* SampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B524A726F546BA00E41736 /* SampleView.swift */; };
+		A7B524A326F545A100E41736 /* Task2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B524A226F545A100E41736 /* Task2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		A7B5249F26F5452C00E41736 /* Task1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task1.swift; sourceTree = "<group>"; };
 		A7B524A526F545E700E41736 /* Task3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task3.swift; sourceTree = "<group>"; };
 		A7B524A726F546BA00E41736 /* SampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleView.swift; sourceTree = "<group>"; };
+		A7B524A226F545A100E41736 /* Task2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				A7B524A426F545DD00E41736 /* Task3 */,
+				A7B524A126F5459B00E41736 /* Task2 */,
 				A7B5249E26F5452400E41736 /* Task1 */,
 				A76DA97026F537A000BCA2CA /* AppDelegate.swift */,
 				A76DA97226F537A000BCA2CA /* SceneDelegate.swift */,
@@ -154,6 +157,14 @@
 				A7B524A726F546BA00E41736 /* SampleView.swift */,
 			);
 			path = Task3;
+            sourceTree = "<group>";
+        };
+		A7B524A126F5459B00E41736 /* Task2 */ = {
+			isa = PBXGroup;
+			children = (
+				A7B524A226F545A100E41736 /* Task2.swift */,
+			);
+			path = Task2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,6 +302,7 @@
 				A7B524A826F546BA00E41736 /* SampleView.swift in Sources */,
 				A76DA97526F537A000BCA2CA /* ViewController.swift in Sources */,
 				A76DA97126F537A000BCA2CA /* AppDelegate.swift in Sources */,
+				A7B524A326F545A100E41736 /* Task2.swift in Sources */,
 				A76DA97326F537A000BCA2CA /* SceneDelegate.swift in Sources */,
 				A7B524A026F5452C00E41736 /* Task1.swift in Sources */,
 			);
